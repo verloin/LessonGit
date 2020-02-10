@@ -1,0 +1,9 @@
+.VS
+.DS_Store
+.AppleDouble
+.LSOvveride
+
+
+
+node_modules
+app/css
