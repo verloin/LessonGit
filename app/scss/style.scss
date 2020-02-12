@@ -69,6 +69,7 @@
 // ==============================================================
 
 
+
 .search {
   background-repeat: no-repeat;
   background-size: cover;
@@ -127,6 +128,8 @@
                              //  products
 // ==============================================================
 
+
+
 .Products {
   padding: 110px 0px;
   background-color: $grey;
@@ -138,7 +141,7 @@
   button {
     padding: 12px 21px;
     border: none;
-    background-color: #fff;
+    background-color: $grey;
     color: $bg;
     cursor: pointer;
     & + button {
@@ -250,6 +253,7 @@
 // ==============================================================
 
 
+
 .product-slider {
   padding: 110px 0px 120px;
   .slick-slider {
@@ -282,6 +286,7 @@
 // ==============================================================
                              //  advatages
 // ==============================================================
+
 
 
 .advantages {
@@ -337,6 +342,7 @@
 // ==============================================================
 
 
+
 .author {
   background-position: center;
   background-repeat: no-repeat;
@@ -371,3 +377,51 @@
     background-color: #fff;
   }
 }
+
+
+
+// ==============================================================
+                             //  tutorial
+// ==============================================================
+
+
+
+
+.tutorial {
+  padding: 70px 0px 120px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    max-width: 370px;
+    width: 100%;
+  }
+}
+
+.tutorial__item {
+  &-images {
+    min-height: 270px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  &-title {
+    background-color: #f8f8f8;
+    font-size: 24px;
+    text-align: center;
+    @include f700;
+    padding: 30px 10px;
+    color: $bg;
+    text-align: center; 
+  }
+}
+
+
+
+// ==============================================================
+                             //  footer
+// ==============================================================
+
+
+
