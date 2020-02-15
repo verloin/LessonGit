@@ -893,8 +893,15 @@ button.icon-unsorted {
     }
   }
 }
-.product__item-text {
+.product__item {
+  &-text {
   display: none;
+  }
+  &-price {
+    span {
+    display: none;
+    }
+  }
 }
 
 .product__item {
@@ -903,11 +910,34 @@ button.icon-unsorted {
     max-width: 100%;
     .product__item-img {
       width: 240px;
-      // float: left;
-    }
-    .product__item-text {
+      float: left;
+      min-height: 100%;
+      }
+    .product__item {
+      &-text {
       display: block;
+      font-size: 14px;
+      color: #70838d;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      }
+      &-price {
+        font-size: 30px;
+        span {
+          display: block;
+          font-size: 13px;
+          color: #aeb4bb;
+          margin-top: 30px;
+        }
+      }
+      &-name {
+        max-width: 480px;
+      }
+      &-content {
+        padding-top: 23px;
+      }
     }
+
   }
-  
 }
+
