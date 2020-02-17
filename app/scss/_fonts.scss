@@ -36,6 +36,9 @@
 .icon-search:before {
   content: "\f002";
 }
+.icon-envelope-o:before {
+  content: "\f003";
+}
 .icon-th-large:before {
   content: "\f009";
 }
@@ -44,6 +47,9 @@
 }
 .icon-map-marker:before {
   content: "\f041";
+}
+.icon-arrows:before {
+  content: "\f047";
 }
 .icon-chevron-right:before {
   content: "\f054";
@@ -54,11 +60,8 @@
 .icon-phone:before {
   content: "\f095";
 }
-.icon-caret-down:before {
-  content: "\f0d7";
-}
-.icon-caret-up:before {
-  content: "\f0d8";
+.icon-bell-o:before {
+  content: "\f0a2";
 }
 .icon-sort:before {
   content: "\f0dc";
@@ -66,11 +69,41 @@
 .icon-unsorted:before {
   content: "\f0dc";
 }
+.icon-sort-desc:before {
+  content: "\f0dd";
+}
+.icon-sort-down:before {
+  content: "\f0dd";
+}
+.icon-sort-asc:before {
+  content: "\f0de";
+}
+.icon-sort-up:before {
+  content: "\f0de";
+}
 .icon-bolt:before {
   content: "\f0e7";
 }
 .icon-flash:before {
   content: "\f0e7";
+}
+.icon-angle-left:before {
+  content: "\f104";
+}
+.icon-angle-right:before {
+  content: "\f105";
+}
+.icon-angle-up:before {
+  content: "\f106";
+}
+.icon-angle-down:before {
+  content: "\f107";
+}
+.icon-mail-reply:before {
+  content: "\f112";
+}
+.icon-reply:before {
+  content: "\f112";
 }
 .icon-location-arrow:before {
   content: "\f124";
